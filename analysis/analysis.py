@@ -127,6 +127,7 @@ df.drop(columns=["sentiment"], errors="ignore").to_csv(
 )
 
 # Then add sentiment and save the other file
+# save new /
 df["sentiment"] = df["rating_numeric"].apply(sentiment_label)
 df.to_csv("data/books_with_sentiment.csv", index=False, encoding="utf-8")
 
@@ -135,4 +136,5 @@ print("\nSaved files:")
 print("- data/cleaned_books.csv")
 print("- data/books_with_sentiment.csv")
 
-print("\n🎉 Day 7 COMPLETE — Full Project Finished!")
+print("\n🎉 COMPLETE — Full Project Finished!")
+print("\nProject Finished!")
