@@ -1,0 +1,10 @@
+# Python virtual environment
+venv/
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (optional: you may or may not want to push raw_books.csv)
+
