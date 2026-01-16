@@ -1,5 +1,5 @@
 # ----------------------------------------
-# Day 7: EDA, Visualization & Sentiment Analysis
+#  Task 1 Final Mini-project: Web scraping analysis Visualization & Sentiment Analysis
 # ----------------------------------------
 
 import pandas as pd
@@ -136,5 +136,5 @@ print("\nSaved files:")
 print("- data/cleaned_books.csv")
 print("- data/books_with_sentiment.csv")
 
-print("\n🎉 COMPLETE — Full Project Finished!")
+print("\n🎉 Task 1 (Web Scraping) Final Mini-project Finished!")
 print("\nProject Finished!")
